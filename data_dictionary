@@ -1,0 +1,64 @@
+**FIPS**: Census tract FIPS code  
+**mean_elevation: Census tract mean elevation in meters
+mean_distance_coast: Census tract mean distance from the coast in km
+rural: Indicator variable for whether this tract is designated as rural by the Census
+suburban: Indicator variable for whether this tract is designated as suburban by the Census
+urban: Indicator varriable for whether this tract is designated as urban by the Census
+census_white: Census tract population proportion with race=white
+census_black: Census tract population proportion with race=black
+census_asian: Census tract population proportion with race=asian
+census_hispanic: Census tract population proportion with race=hispanic
+census_income: Median income for the Census tract
+census_employment: Proportion of the population that is employed
+census_college: Proportion of the population that are college graduates
+SPL_THEME1: SPL theme 1 from the CDC/ATSDR SVI 2018
+SPL_THEME2: SPL theme 2 from the CDC/ATSDR SVI 2018
+SPL_THEME3: SPL theme 3 from the CDC/ATSDR SVI 2018
+SPL_THEME4: SPL theme 4 from the CDC/ATSDR SVI 2018
+EP_POV:
+EP_UNEMP:
+EP_PCI:
+EP_NOHSDP:
+EP_AGE65:
+EP_AGE17:
+EP_DISABL:
+EP_SNGPNT:
+EP_MINRTY:
+EP_LIMENG:
+EP_MUNIT:
+EP_MOBILE:
+EP_CROWD:
+EP_NOVEH:
+EP_GROUPQ:
+RPL_THEME1: CDC/ATSDR SVI theme 1 ranked percentile
+RPL_THEME2: CDC/ATSDR SVI theme 2 ranked percentile
+RPL_THEME3: CDC/ATSDR SVI theme 3 ranked percentile
+RPL_THEME4: CDC/ATSDR SVI theme 4 ranked percentile
+evacuation_day: Day count where Aug 25, 2020(?) is 0
+overall_count: Total number of IDs assigned to this tract
+evacuation_count: Count of number of evacuees on the current day from this tract
+evacuation_proportion: Proportion of number of IDs that have evacuated from this tract on this day
+previous_evacuation: Proportion of number of IDs that have evacuated from this tract on the previous day
+positive_proportion: Proportion of tweets assigned to this tract on this day that have positive sentiment
+negative_proportion: Proportion of tweets assigned to this tract on this day that have negative sentiment
+neutral_proportion: Proportion of tweets assigned to this tract on this day that have neutral sentiment
+topic_0_proportion: Proportion of tweets assigned to this tract on this day that have topic 0
+topic_1_proportion: Proportion of tweets assigned to this tract on this day that have topic 1
+topic_2_proportion: Proportion of tweets assigned to this tract on this day that have topic 2
+count: Total number of tweets from this tract on this day
+start:
+end:
+COUNTY_FIPS: FIPS code for the county
+hurricanewatch: Indicator variable for whether there was a hurricane watch in this tract for this day
+hurricanewarning: Indicator variable for whether there was a hurricane warning in this tract for this day
+tropicalwatch: Indicator variable for whether there was a tropical storm watch in this tract for this day
+tropicalwarning: Indicator variable for whether there was a tropical storm warning in this tract for this day
+GPM_mm: Measured rainfall in this tract on this day (mm)
+Fraction_Flooded: Fraction of the tract that was flooded on this day
+rainfall_forecast: Rainfall forecast for this tract on this day (mm)
+RPL_THEME1_q: CDC/ATSDR SVI theme 1 ranked percentile stratified into quartiles
+RPL_THEME2_q: CDC/ATSDR SVI theme 2 ranked percentile stratified into quartiles
+RPL_THEME3_q: CDC/ATSDR SVI theme 3 ranked percentile stratified into quartiles
+RPL_THEME4_q: CDC/ATSDR SVI theme 4 ranked percentile stratified into quartiles
+confirmed_covid_cases: Confirmed COVID-19 cases in this county on this day
+covid_deaths: Confirmed COVID-19 deaths in this county on this day
