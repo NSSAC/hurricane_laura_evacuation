@@ -1,5 +1,5 @@
-**FIPS**: Census tract FIPS code  
-**mean_elevation: Census tract mean elevation in meters
+FIPS: Census tract FIPS code  
+mean_elevation: Census tract mean elevation in meters
 mean_distance_coast: Census tract mean distance from the coast in km
 rural: Indicator variable for whether this tract is designated as rural by the Census
 suburban: Indicator variable for whether this tract is designated as suburban by the Census
