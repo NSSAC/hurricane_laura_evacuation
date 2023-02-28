@@ -15,26 +15,26 @@ SPL_THEME1: SPL theme 1 from the CDC/ATSDR SVI 2018
 SPL_THEME2: SPL theme 2 from the CDC/ATSDR SVI 2018
 SPL_THEME3: SPL theme 3 from the CDC/ATSDR SVI 2018
 SPL_THEME4: SPL theme 4 from the CDC/ATSDR SVI 2018
-EP_POV:
-EP_UNEMP:
-EP_PCI:
-EP_NOHSDP:
-EP_AGE65:
-EP_AGE17:
-EP_DISABL:
-EP_SNGPNT:
-EP_MINRTY:
-EP_LIMENG:
-EP_MUNIT:
-EP_MOBILE:
-EP_CROWD:
-EP_NOVEH:
-EP_GROUPQ:
+EP_POV: Percentage of persons below poverty
+EP_UNEMP: Unemployment rate
+EP_PCI: Per capita income
+EP_NOHSDP: Percentage of persons aged 25 and over without a high school diploma
+EP_AGE65: Percentage of persons aged 65 and over
+EP_AGE17: Percentage of persons aged 17 and younger
+EP_DISABL:Percentage of noninstitutionalized population with a disability
+EP_SNGPNT: Percentage of single parent households with children under 18
+EP_MINRTY: Percentage minority 
+EP_LIMENG: Percentage of persons (age 5+) who speak English "less than well
+EP_MUNIT: Percentage of housing in structures with 10 or more units
+EP_MOBILE: Percentage of mobile homes
+EP_CROWD: Percentage of occupied housing units with more people than rooms
+EP_NOVEH: Percentage of households with no vehicle available
+EP_GROUPQ: Percentage of persons in institutionalized group quarters
 RPL_THEME1: CDC/ATSDR SVI theme 1 ranked percentile
 RPL_THEME2: CDC/ATSDR SVI theme 2 ranked percentile
 RPL_THEME3: CDC/ATSDR SVI theme 3 ranked percentile
 RPL_THEME4: CDC/ATSDR SVI theme 4 ranked percentile
-evacuation_day: Day count where Aug 25, 2020(?) is 0
+evacuation_day: Day for evacuation counts starting with Aug 26, 2020
 overall_count: Total number of IDs assigned to this tract
 evacuation_count: Count of number of evacuees on the current day from this tract
 evacuation_proportion: Proportion of number of IDs that have evacuated from this tract on this day
@@ -46,8 +46,6 @@ topic_0_proportion: Proportion of tweets assigned to this tract on this day that
 topic_1_proportion: Proportion of tweets assigned to this tract on this day that have topic 1
 topic_2_proportion: Proportion of tweets assigned to this tract on this day that have topic 2
 count: Total number of tweets from this tract on this day
-start:
-end:
 COUNTY_FIPS: FIPS code for the county
 hurricanewatch: Indicator variable for whether there was a hurricane watch in this tract for this day
 hurricanewarning: Indicator variable for whether there was a hurricane warning in this tract for this day
